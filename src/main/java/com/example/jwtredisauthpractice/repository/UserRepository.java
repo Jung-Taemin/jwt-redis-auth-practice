@@ -1,7 +1,7 @@
 package com.example.jwtredisauthpractice.repository;
 
+import com.example.jwtredisauthpractice.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.security.core.userdetails.User;
 
 import java.util.Optional;
 
