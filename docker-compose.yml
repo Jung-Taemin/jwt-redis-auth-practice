@@ -4,4 +4,4 @@ services:
     container_name: jwt-redis
     ports:
       - "6379:6379"
-    command: ["redis-service", "--appendonly", "yes"]
+    command: ["redis-server", "--appendonly", "yes"]

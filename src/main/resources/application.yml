@@ -22,6 +22,7 @@ spring:
       port: 6379
 
 jwt:
-  secret: secret-key
+  issuer: jwt-practice
+  secretKey: "A3q9mT5xV2c7L0pZ8rN1wS4yH6kJ2uQ9dR5fG1tE7bC3mN0pL2vX8zQ4sD6fH9"
   access-exp-min: 15
   refresh-exp-days: 14
